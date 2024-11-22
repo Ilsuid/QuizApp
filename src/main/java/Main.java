@@ -10,9 +10,9 @@ public class Main {
         quiz.addQuestion(new MultipleChoiceQuestion( "What year did the first Shrek movie get released?", new String[]{ "1990", "1987", "2005", "2001"}, 3));
         quiz.addQuestion(new MultipleChoiceQuestion( "What is the name of the Gaming company behind the Granf Theft Auto Franchise", new String[]{ "Ubisoft", "Mojang", "Rockstar Games", "Rocksteady Games"},2));
         quiz.addQuestion(new MultipleChoiceQuestion( "What is the Biggest Contient on Eath?", new String[]{"Africa", "Asia", "Europe", "North America"}, 1));
-
-
-
+        quiz.addQuestion(new MultipleChoiceQuestion( "Who is the largest Planet on Solar System?", new String[]{"Venus","Saturn","Jupiter","Earth"}, 2));
+        quiz.addQuestion(new MultipleChoiceQuestion("What is the name of capital city of ALbania?", new String[]{"Elbasan","Shkora","Durres","Tirana"}, 3));
+        quiz.addQuestion(new MultipleChoiceQuestion("Which company of behind half life franchise?", new String[]{"Ubisoft","Rockstar Games","Valve","CD Project Red"}, 2));
 
         quiz.display();
         quiz.showResult();
